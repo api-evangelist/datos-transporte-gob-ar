@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://datos.transporte.gob.ar/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/datos-transporte-gob-ar-domain-security.yml
   - type: Website
     url: https://datos.transporte.gob.ar
   - type: Documentation
